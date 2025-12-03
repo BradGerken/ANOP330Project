@@ -3,8 +3,6 @@ import pandas as pd
 import pickle
 
 
-""", unsafe_allow_html=True)
-
 # ------------------- LOAD MODEL -------------------
 file_to_load = "xgboost_reunion_model.pkl"   # Must be in SAME folder
 with open(file_to_load, "rb") as file:

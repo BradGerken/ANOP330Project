@@ -2,51 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# ------------------- CUSTOM BLUE & ORANGE THEME -------------------
-st.markdown("""
-    <style>
-        /* Main background */
-        .stApp {
-            background-color: #f5f9ff;
-        }
 
-        /* Title color */
-        h1, h2, h3 {
-            color: #1f4fa3;
-        }
-
-        /* Buttons */
-        .stButton>button {
-            background-color: #f28c28;
-            color: white;
-            font-weight: bold;
-            border-radius: 8px;
-            border: none;
-        }
-
-        .stButton>button:hover {
-            background-color: #1f4fa3;
-            color: white;
-            transition: 0.3s;
-        }
-
-        /* Slider color */
-        .stSlider > div > div {
-            color: #1f4fa3;
-        }
-
-        /* Success message */
-        .stSuccess {
-            background-color: #d6ecff;
-            color: #1f4fa3;
-        }
-
-        /* Error message */
-        .stError {
-            background-color: #ffe3d6;
-            color: #a33b1f;
-        }
-    </style>
 """, unsafe_allow_html=True)
 
 # ------------------- LOAD MODEL -------------------

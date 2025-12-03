@@ -9,7 +9,7 @@ with open(file_to_load, "rb") as file:
     loaded_model = pickle.load(file)
 
 # ------------------- UI LAYOUT -------------------
-st.set_page_config(page_title="🎓 Reunion Attendance Predictor", layout="centered")
+st.set_page_config(page_title="🎓🟧 Reunion Attendance Predictor🟦🦬", layout="centered")
 st.title("🎓 Alumni Reunion Attendance Predictor")
 st.markdown("Enter alumni information below to estimate the probability of attending.")
 
